@@ -2,6 +2,7 @@
 
 dependencies:
     - role: base/docker
+      tags: base/docker
     - role: base/ansible_dependencies
       dependency_roles:
         - src: "git+https://github.com/BastienF/ansible-traefik-in-docker"
